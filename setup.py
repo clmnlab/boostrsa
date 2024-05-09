@@ -14,6 +14,7 @@ setup(
     description = "This is toolbox for boosting calculation speed using GPU",
     long_description = long_description,
     long_description_content_type="text/markdown",
+    url = "https://github.com/SeojinYoon/boostrsa.git"
     packages = find_packages(where = "src"),
     package_dir = {"": "src"},
     classifiers = [

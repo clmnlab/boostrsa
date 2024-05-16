@@ -2,8 +2,8 @@ LICENSE.txt
 README.md
 setup.py
 src/boostrsa/__init__.py
+src/boostrsa/boostrsa_types.py
 src/boostrsa/searchlight.py
-src/boostrsa/types.py
 src/boostrsa.egg-info/PKG-INFO
 src/boostrsa.egg-info/SOURCES.txt
 src/boostrsa.egg-info/dependency_links.txt

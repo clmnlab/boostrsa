@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: boostrsa
-Version: 0.0.1.dev0
+Version: 0.0.1.dev2
 Summary: This is toolbox for boosting calculation speed using GPU
 Home-page: https://github.com/SeojinYoon/boostrsa.git
 Author: seojin

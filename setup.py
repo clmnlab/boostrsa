@@ -14,7 +14,7 @@ setup(
     description = "This is toolbox for boosting calculation speed using GPU",
     long_description = long_description,
     long_description_content_type="text/markdown",
-    url = "https://github.com/SeojinYoon/boostrsa.git"
+    url = "https://github.com/SeojinYoon/boostrsa.git",
     packages = find_packages(where = "src"),
     package_dir = {"": "src"},
     classifiers = [
@@ -22,7 +22,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.9',
+    python_requires='>=3.8',
     install_requires = [
         "numpy",
         "pandas",

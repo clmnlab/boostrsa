@@ -13,7 +13,7 @@ Basically, this library uses a Nvidia's GPU instead of CPU for parallel processi
 
 To use this library, you need to have a Nvidia's GPU and CUDA. Additionally, this library heavily relies on Cupy and Numba. It is essential to install the appropriate versions of these libraries.
 
-### Cupy
+### cupy
 
 Cupy is designed to work with specific versions of CUDA. See cupy's guide and install appropriate version in correspond to your system (https://github.com/cupy/cupy).
 
@@ -26,17 +26,25 @@ Please check your cuda version to install cupy.
 
 If you installed the cuda10 in your computer, then install cupy-cuda10x. install cupy-cuda10x. ex) pip install cupy-cuda10x
 
-### Numba
+### numba
 
 The numba library is a powerful tool that enbales python functions to be compiled to machine code at runtime using the LLVM. One of its key features is the ability to generate native code for different architectures, including CPUs and GPUs, which greatly accelerates the execution of data-heavy and computationally intense python code.
 
 Please see installation guideline of numba (https://numba.pydata.org/numba-doc/latest/user/installing.html).
 
 Pip installation). 
+
 - pip install numba
 
+### rsatoolbox
 
-## Installation
+The rsatoolbox is a Python library specifically designed for Representational Similarity Analysis (RSA). 
+
+Please see installation guideline of rsatoolbox (https://github.com/rsagroup/rsatoolbox)
+
+- pip install rsatoolbox
+
+# Installation
 
 pip install boostrsa
 

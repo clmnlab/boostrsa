@@ -3,11 +3,11 @@
 
 This library is based on rsatoolbox(https://github.com/rsagroup/rsatoolbox).
 
-The purpose of library is made to boost calcuation speed for searchlight RSA(Representational Similarity Analysis). However, It is still in development, so this library only includes tools for boosting crossnobis distance calculation for constructing RDM(Representational Dissimilartiy Matrix) on the whole brain. 
+The purpose of library is to boost computation speed for searchlight RSA(Representational Similarity Analysis). However, It is still in development, so this library only includes tools for boosting crossnobis distance calculation for constructing RDM(Representational Dissimilartiy Matrix) on the whole brain. 
 
 ## How it works?
 
-Basically, this library uses a Nvidia's GPU instead of CPU for parallel processing. In the searchlight analysis, the data targeted for constructing the RDM in volvxes a voxel and its neighboring voxels. That is well-suited for parallel processing since the calculations for each target are independent of one another. This library utilizes GPU-compatible libraries such as Numba and Cupy to facilitate this process.
+This library uses Nvidia's GPU instead of CPU for parallel processing. In the searchlight analysis, the data targeted for constructing the RDM in a voxel and its neighboring voxels. That is well-suited for parallel processing since the calculations for each target are independent of one another. This library utilizes GPU-compatible libraries such as Numba and Cupy to facilitate this process.
 
 ## Dependencies
 

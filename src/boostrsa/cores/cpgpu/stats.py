@@ -2,10 +2,10 @@
 import numpy as np
 import cupy as cp
 from numba import cuda, jit
-from boostrsa.src.types import ShrinkageMethod
-from boostrsa.src.gpu.basic_operations import outer_sum_square, outer_sum
-from boostrsa.src.gpu.matrix import diag, eyes
-from boostrsa.src.gpu.basic_operations import scaling
+from boostrsa.boostrsa_types import ShrinkageMethod
+from boostrsa.cores.gpu.basic_operations import outer_sum_square, outer_sum
+from boostrsa.cores.gpu.matrix import diag, eyes
+from boostrsa.cores.gpu.basic_operations import scaling
 
 def _covariance_eye(residuals, threads_per_block = 1024):
     """

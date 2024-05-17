@@ -7,11 +7,11 @@ import itertools
 from tqdm import trange
 
 # Custom Libraries
-from boostrsa_types import ShrinkageMethod
-from cores.cpu.matrix import convert_1d_to_symmertic, mean_fold_variance
-from cores.cpgpu.stats import _covariance_diag, _covariance_eye
-from cores.gpu.mask import set_mask
-from cores.gpu.matrix import calc_kernel, rdm_from_kernel
+from boostrsa.boostrsa_types import ShrinkageMethod
+from boostrsa.cores.cpu.matrix import convert_1d_to_symmertic, mean_fold_variance
+from boostrsa.cores.cpgpu.stats import _covariance_diag, _covariance_eye
+from boostrsa.cores.gpu.mask import set_mask
+from boostrsa.cores.gpu.matrix import calc_kernel, rdm_from_kernel
 
 # Functions
 def calc_sl_precision(residuals, 

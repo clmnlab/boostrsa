@@ -1,6 +1,6 @@
 
 from numba import cuda, jit
-from basic_operations import matmul
+from boostrsa.cores.gpu.basic_operations import matmul
 
 @jit(nopython=True)
 def upper_tri_1d_index(i, j, n_col, k):

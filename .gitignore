@@ -1,0 +1,17 @@
+# Ignore Python distribution / packaging files.
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Ignore pycache
+__pycache__/
+*.py[cod]
+
+# Ignore all log files
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+

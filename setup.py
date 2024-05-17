@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name = "boostrsa",
-    version = "0.0.1dev4",
+    version = "0.0.1dev5",
     author = "seojin",
     author_email = "pures1@hanyang.ac.kr",
     description = "This is toolbox for boosting calculation speed using GPU",
